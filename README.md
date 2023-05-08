@@ -12,8 +12,9 @@ The exception is necessary because the AGPL requires that any modifications to t
 
 ## Contents
 
-- [`exception.tex`](exception.tex) - The LaTeX source code for the AGPL Exception document.
-- [`exception.pdf`](exception.pdf) - The exception document.
+- [`exception.tex`](exception.tex) — The LaTeX source code for the AGPL Exception document.
+- [`exception.pdf`](exception.pdf) — The exception document.
+- [`exception.html`](exception.html) — The exception document as HTML.
 
 ## Usage
 
