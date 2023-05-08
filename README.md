@@ -6,7 +6,7 @@ community feedback. The repository will not be force pushed after
 `1fb598d`, however, so if it already looks fine to you, feel free to use
 it.**
 
-This repository contains a single source file, `exception.tex`, which provides the text of an exception to the GNU Affero General Public License, version 3 or later (AGPL), as published by the Free Software Foundation. The exception allows for additional permissions to incorporate flood control, security, and CAPTCHA software into AGPL-licensed software without being subject to the Share-Alike Provisions of the AGPL.
+[This repository](https://github.com/MFEK/AGPL-Flood-Exception) contains a single source file, `exception.tex`, which provides the text of an exception to the GNU Affero General Public License, version 3 or later (AGPL), as published by the Free Software Foundation. The exception allows for additional permissions to incorporate flood control, security, and CAPTCHA software into AGPL-licensed software without being subject to the Share-Alike Provisions of the AGPL.
 
 The exception is necessary because the AGPL requires that any modifications to the licensed software must also be licensed under the AGPL. This can create issues when incorporating flood control, security, and CAPTCHA software, as it may require disclosing sensitive information or proprietary algorithms. By providing an exception for these specific cases, the AGPL-licensed software can be adapted to address these concerns without compromising the overall licensing intent.
 
