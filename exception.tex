@@ -1,9 +1,11 @@
-\documentclass[12pt]{article}
+\documentclass[a5paper,14pt]{extreport}
 
 \usepackage{fontspec}
 \usepackage{microtype}
+\usepackage{saveparinfo}
 \usepackage{geometry}
 \usepackage{setspace}
+\usepackage{float}
 \usepackage{draftwatermark}
 \SetWatermarkText{DRAFT}
 \usepackage{hyperref}
@@ -78,6 +80,58 @@ By exercising the Exception, you agree to comply with the terms and conditions b
 
 \item[(b)] Any disputes arising from this Exception shall be subject to the exclusive jurisdiction of the courts of the jurisdiction in which the original licensors of the AGPL-licensed software reside.
 \end{enumerate}
+
+\newpage
+\section*{7. How to Apply This Exception to Your Programs}
+
+Attach the following notices to the program. It is safest to attach them to the start of each source
+file to most effectively state the exclusion of warranty; and each file should have at least the
+"copyright" line and a pointer to where the full notice is found.
+
+~\saveparinfo{default}
+
+\fbox{
+	\small
+	\begin{minipage}{.9\textwidth}
+		\useparinfo{default}
+		{
+			{
+				\bfseries
+				\noindent <one line to give the program's name and a brief idea of what it does.>
+
+				\noindent Copyright (C) <year>  <name of author>
+			}
+
+			\par{}This program is free software: you can redistribute it and/or modify it under
+			the terms of the GNU Affero General Public License as published by the Free
+			Software Foundation, either version 3 of the License, or (at your option) any
+			later version (GNU AGPLv3+), supplemented by the additional permissions listed
+			in the MFEK AGPL security exception v1.0, as published by the Modular Font
+			Editor K Foundation Inc.. either version 1 of the exception, or (at your
+			option) any later version (MFEK-Flood-Exception).
+
+			\par{}This program is distributed in the hope that it will be useful, but WITHOUT ANY
+			WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+			PARTICULAR PURPOSE.  See the GNU Affero General Public License and the MFEK
+			AGPL security exception v1.0 for more details.
+
+			\par{}You should have received a copy of the GNU Affero General Public License and
+			the MFEK AGPL security exception v1.0 along with this program.  If not, see
+			<\url{https://www.gnu.org/licenses/}> and <https://mfek.org/AGPL-Flood-Exception>.
+		}
+	\end{minipage}
+}
+
+~\\
+
+In addition, be sure to provide a way for users to access the source code of your software,
+especially if it can interact with users remotely through a computer network. This could be done,
+for example, through a "Source" link in the interface of your web application.
+
+You should also get your employer (if you work as a programmer) or your school, if any, to sign a
+"copyright disclaimer" for the program, if necessary. For more information on this, and how to apply
+and follow the GNU AGPL and this Exception, see <\url{https://www.gnu.org/licenses/}> and
+<\url{https://mfek.org/AGPL-Flood-Exception}>.
 
 \section*{Appendix A: About this document}
 This document, titled ``Worldwide AGPL Exception for Modifications for the Purposes of Flood Control, Security, and CAPTCHA Software Integration,'' is published by the Modular Font Editor K Foundation Inc., a New Jersey Non-Profit Corporation. This is Version 1.0 of the document and can be referred to in short as the ``MFEK AGPL security exception v1.0''. Programs licensed under the AGPL and which use this exception may refer to themselves as ``\texttt{AGPLv$n$$+$MFEK-Flood-Exception-v1.0}'' programs.
