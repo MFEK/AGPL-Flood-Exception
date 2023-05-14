@@ -1,0 +1,16 @@
+\makeatletter
+
+% Command to save \parindent and \parskip under a specific key. The argument
+% is the key and can even contain non-letters (e.g., hyphens or spaces).
+\newcommand*{\saveparinfo}[1]{%
+  \expandafter\xdef\csname my@#1@parindent\endcsname{\the\parindent}%
+  \expandafter\xdef\csname my@#1@parskip\endcsname{\the\parskip}%
+}
+
+% Restore parameters that were saved under the specified key.
+\newcommand*{\useparinfo}[1]{%
+  \parindent=\csname my@#1@parindent\endcsname \relax
+  \parskip=\csname my@#1@parskip\endcsname \relax
+}
+
+\makeatother
